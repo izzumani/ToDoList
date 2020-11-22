@@ -9,6 +9,8 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "node-sass": "^5.0.0",
+    "sass-loader": "^10.1.0",
     "vue": "^2.6.11"
   },
   "devDependencies": {
@@ -32,7 +34,12 @@
     "parserOptions": {
       "parser": "babel-eslint"
     },
-    "rules": {}
+    "rules": {
+      "no-console": 0,
+      "no-debugger": 0,
+      "no-unused-vars": 0,
+      "vue/valid-v-for":1
+    }
   },
   "browserslist": [
     "> 1%",
